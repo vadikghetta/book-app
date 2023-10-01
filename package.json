@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "book app with native js",
   "main": "app.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "start": "live-server",
     "build": "rollup -c --watch"
@@ -19,6 +19,7 @@
     "rollup": "^3.29.4"
   },
   "dependencies": {
+    "on-change": "^4.0.2",
     "rollup-plugin-import-css": "^3.3.4"
   }
 }
