@@ -1,0 +1,19 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "book app with native js",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Ghetta Vadim",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "rollup": "^3.29.4"
+  }
+}
